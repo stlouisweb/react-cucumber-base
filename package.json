@@ -25,10 +25,6 @@
         "functions": 90,
         "lines": 50
       }
-    },
-    "testMatch": [
-      "**/*.test.js",
-      "**/*.steps.js"
-    ]
+    }
   }
 }
