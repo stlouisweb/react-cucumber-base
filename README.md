@@ -5,13 +5,6 @@ To get started clone this repo then re-init git for your project's repo:
 - `$ rm -rf .git/`
 - `$ git init`
 
----
-
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
-
-Below you will find some information on how to perform common tasks.<br>
-You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
-
 ## Run feature tests:
 `$ npm run test`
 
@@ -32,6 +25,13 @@ You can find the most recent version of this guide [here](https://github.com/fac
         All files |      100 |      100 |      100 |      100 |                   |
         App.js   |      100 |      100 |      100 |      100 |                   |
         ----------|----------|----------|----------|----------|-------------------|
+
+---
+
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+
+Below you will find some information on how to perform common tasks.<br>
+You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
 ## Table of Contents
 
