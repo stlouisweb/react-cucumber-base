@@ -1,0 +1,34 @@
+{
+  "name": "component-lib",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "coverage": "react-scripts test --env=jsdom --coverage",
+    "test": "react-scripts test --env=jsdom",
+    "test:watch": "npm run test --watch",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "jest-cucumber": "^1.0.7"
+  },
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 90,
+        "functions": 90,
+        "lines": 50
+      }
+    },
+    "testMatch": [
+      "**/*.test.js",
+      "**/*.steps.js"
+    ]
+  }
+}
