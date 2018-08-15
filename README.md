@@ -12,9 +12,32 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
+## Run feature tests:
+`$ npm run test`
+
+## Collect coverage:
+` $ npm run coverage`
+
+        PASS  specs/steps/App.steps.js
+          ✓ Visiting the app landing page (6ms)
+
+        Test Suites: 1 passed, 1 total
+        Tests:       1 passed, 1 total
+        Snapshots:   0 total
+        Time:        0.798s, estimated 1s
+        Ran all test suites.
+        ----------|----------|----------|----------|----------|-------------------|
+        File      |  % Stmts | % Branch |  % Funcs |  % Lines | Uncovered Line #s |
+        ----------|----------|----------|----------|----------|-------------------|
+        All files |      100 |      100 |      100 |      100 |                   |
+        App.js   |      100 |      100 |      100 |      100 |                   |
+        ----------|----------|----------|----------|----------|-------------------|
+
 ## Table of Contents
 
 - [React Cucumber Base](#react-cucumber-base)
+  - [Run feature tests:](#run-feature-tests)
+  - [Collect coverage:](#collect-coverage)
   - [Table of Contents](#table-of-contents)
   - [Updating to New Releases](#updating-to-new-releases)
   - [Sending Feedback](#sending-feedback)
